@@ -23,6 +23,9 @@ project "Box2D"
 	filter "system:windows"
 		systemversion "latest"
 
+	filter "system:linux"
+		pic "On"
+
 	filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
